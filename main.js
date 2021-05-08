@@ -11,7 +11,6 @@ const acceptCookies = async (page) => {
 
 const login = async (page) => {
     // get user ids inputs and fill they
-
     const emailInput = 'input[type="text"]'
     const passwordInput = 'input[type="password"]'
     await page.waitForSelector(emailInput)
@@ -85,7 +84,6 @@ const scrape = async () => {
     } catch(err) {
         console.log(err)
     }
-
 
     // get all post images url
     try { 
