@@ -4,7 +4,7 @@ Scrape all memes from your favourite facebook fanpage or group !
 
 ## Usage
 
-**Fist complete the config.json with your own informations**
+**First complete the config.json with your own informations**
 
 ```js
 const config = {
