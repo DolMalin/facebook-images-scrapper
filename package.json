@@ -1,0 +1,19 @@
+{
+  "name": "facebook-images-scrapper",
+  "version": "1.0.0",
+  "description": "A bot that scrapes all images in a chosen facebook feed",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "dolmalin",
+  "license": "ISC",
+  "dependencies": {
+    "chromium": "^3.0.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^9.1.1"
+  }
+}
